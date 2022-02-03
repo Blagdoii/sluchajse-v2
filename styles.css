@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(276deg, #ff3e3e, #ff5858, #fd6830, #ffbf67, #fff567, #d3f93d, #90ff67, #45f954, #45f98b, #45f9cb, #45d8f9, #2386d7, #233fd7, #5c75ff, #845cff, #d35cff, #fe5cff, #ff5cce, #ff5c9b, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #ff5c70, #2d191b, #c3a1a4, #908182, #160405, #b6999a, #696969);
+    background-size: 7000% 7000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+
+h1{
+text-align: center;
+font-family: montserrat;
+font-size: 45px;}
+
+p{
+font-family: Apple Chancery, cursive;
+font-size: 20px;
+text-align: center;
+}
+
+.live{
+font-size: 24px;
+font-family: Gill Sans, sans-serif;
+text-align: center;}
+
+.audio {
+text-align: center;
+color: black;}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
