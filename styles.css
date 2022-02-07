@@ -1,32 +1,32 @@
 body {
-     background: linear-gradient(32deg, #000000, #1c1c1c, #2b2b2b; #363636, #474747);
-    background-size: 2400% 2400%;
+   background: linear-gradient(42deg, #000000, #101010, #252525, #3e3e3e, #4b4b4b, #505050);
+    background-size: 1200% 1200%;
 
-    -webkit-animation: AnimationName 49s ease infinite;
-    -moz-animation: AnimationName 49s ease infinite;
-    -o-animation: AnimationName 49s ease infinite;
-    animation: AnimationName 49s ease infinite;
+    -webkit-animation: Background 30s ease infinite;
+    -moz-animation: Background 30s ease infinite;
+    -o-animation: Background 30s ease infinite;
+    animation: Background 30s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
+@-webkit-keyframes Background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
+@-moz-keyframes Background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-o-keyframes AnimationName {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
+@-o-keyframes Background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@keyframes AnimationName {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
+@keyframes Background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 
