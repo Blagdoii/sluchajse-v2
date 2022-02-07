@@ -1,5 +1,5 @@
 body {
-     background: linear-gradient(32deg, #000000, #1c1c1c, #343434, #3e3e3e, #454545, #505050, #5a5a5a, #474747, #3e3e3e, #2f2f2f, #272727, #181818);
+     background: linear-gradient(32deg, #000000, #1c1c1c, #2b2b2b; #363636, #474747);
     background-size: 2400% 2400%;
 
     -webkit-animation: AnimationName 49s ease infinite;
