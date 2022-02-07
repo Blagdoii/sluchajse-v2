@@ -35,12 +35,14 @@ body {
 h1{
 text-align: center;
 font-family: montserrat;
-font-size: 45px;}
+font-size: 45px;
+color: #828282;}
 
 p{
 font-family: Apple Chancery, cursive;
 font-size: 20px;
 text-align: center;
+color: #595959;
 }
 
 .live{
