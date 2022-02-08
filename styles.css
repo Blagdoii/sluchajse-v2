@@ -142,3 +142,8 @@ button:hover .liquid {
   transform: translate(-50%, -75%) rotate(360deg);
  }
 }
+
+.beta {
+font-family: montserrat;
+font-size: 10px;
+   text-align: center; }
