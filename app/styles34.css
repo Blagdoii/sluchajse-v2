@@ -1,0 +1,79 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(270deg, #000000, #343434, #3f3f3f, #8a8a8a);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.container{
+  height: 15px;
+  width: 105px;
+  display: flex;
+  position: relative;
+  .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: move 500ms linear 0ms infinite;
+    margin-right: 30px;
+    
+    &:first-child{
+      position: absolute;
+      top:0;
+      left:0;
+      animation: grow 500ms linear 0ms infinite;
+    }
+    
+    &:last-child{
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 0;
+      animation: grow 500ms linear 0s infinite reverse;
+    }
+  }
+}
+
+@keyframes grow {
+  from {transform: scale(0,0); opacity: 0;}
+  to {transform: scale(1,1); opacity: 1;}
+}
+
+@keyframes move {
+  from {transform: translateX(0px)}
+  to {transform: translateX(45px)}
+}
+
+h { color: white; font-family: montserrat; font-size: 50;}
+	  
