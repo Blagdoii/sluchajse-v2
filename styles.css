@@ -147,3 +147,57 @@ button:hover .liquid {
 font-family: montserrat;
 font-size: 10px;
    text-align: center; }
+
+.twitter-share-button {
+  background: #6ec5ff;
+  background-image: -webkit-linear-gradient(top, #6ec5ff, #6694b0);
+  background-image: -moz-linear-gradient(top, #6ec5ff, #6694b0);
+  background-image: -ms-linear-gradient(top, #6ec5ff, #6694b0);
+  background-image: -o-linear-gradient(top, #6ec5ff, #6694b0);
+  background-image: linear-gradient(to bottom, #6ec5ff, #6694b0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.twitter-share-button:hover {
+  background: #8a8a8a;
+  background-image: -webkit-linear-gradient(top, #8a8a8a, #080808);
+  background-image: -moz-linear-gradient(top, #8a8a8a, #080808);
+  background-image: -ms-linear-gradient(top, #8a8a8a, #080808);
+  background-image: -o-linear-gradient(top, #8a8a8a, #080808);
+  background-image: linear-gradient(to bottom, #8a8a8a, #080808);
+  text-decoration: none;
+}
+
+.github {
+  background: #7d7d7d;
+  background-image: -webkit-linear-gradient(top, #7d7d7d, #4a4a4a);
+  background-image: -moz-linear-gradient(top, #7d7d7d, #4a4a4a);
+  background-image: -ms-linear-gradient(top, #7d7d7d, #4a4a4a);
+  background-image: -o-linear-gradient(top, #7d7d7d, #4a4a4a);
+  background-image: linear-gradient(to bottom, #7d7d7d, #4a4a4a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.github:hover {
+  background: #424242;
+  background-image: -webkit-linear-gradient(top, #424242, #707070);
+  background-image: -moz-linear-gradient(top, #424242, #707070);
+  background-image: -ms-linear-gradient(top, #424242, #707070);
+  background-image: -o-linear-gradient(top, #424242, #707070);
+  background-image: linear-gradient(to bottom, #424242, #707070);
+  text-decoration: none;
+}
